@@ -1,0 +1,25 @@
+name: GensOPGeneratorNetwork
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.21"
+commands:
+  gens:
+    description: Main command for the Gens OP Generator Network plugin.
+    usage: /gens <subcommand>
+    aliases: [generator, gen]
+  gens create:
+    description: Create a new generator.
+    usage: /gens create <type>
+  gens upgrade:
+    description: Upgrade a generator.
+    usage: /gens upgrade <generator>
+  gens island:
+    description: Manage your private island.
+    usage: /gens island <subcommand>
+  gens shop:
+    description: Open the shop menu.
+    usage: /gens shop
+  gens rank:
+    description: View your rank.
+    usage: /gens rank
